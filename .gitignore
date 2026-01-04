@@ -1,0 +1,48 @@
+# 
+#   .gitignore for Dragonstone.
+#
+
+# Annoying IDE ignores.
+.fake
+
+# Ignore any IDE folders.
+.nvim
+.idea
+.env
+.vscode
+.vscode/
+.vscode/**
+.vscode-test/**
+
+# Ignore any caches from testing.
+/.directory
+/.vscode-test
+cache
+cache/
+.cache
+.cache/
+
+# Ignore any Output/Build Files, Directories.
+# and Notes.
+.dragonstone
+.dragonstone/
+*.vsix
+dragonstone-lang-*.vsix
+/out
+node_modules
+node_modules/
+/node_modules
+out/main.js.map
+package-lock.json
+dist/
+tsconfig.tsbuildinfo
+
+
+
+# Ignore any IDE folders.
+.idea
+.env
+.vscode
+.vscode/
+.vscode/**
+.vscode-test/**
